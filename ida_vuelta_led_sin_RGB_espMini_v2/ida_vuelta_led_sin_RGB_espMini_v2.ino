@@ -4,7 +4,7 @@
 #endif
 
 int LED_PIN = D6 ;
-int desface = 1000;
+float desface = 0.0; //valor entre medido en fracciones de TAU quizas pensalo entre [-2PI , 2PI ] o [0, 2PI]
 int cantPixeles  =35;
 long marcaTiempo, tiempoActual;
 long marcaTiempoFrec, muestreo = 25;
