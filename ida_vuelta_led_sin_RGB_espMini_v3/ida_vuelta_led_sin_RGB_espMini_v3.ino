@@ -12,18 +12,17 @@ int LED_PIN = D6 ;
 int cantPixeles  = 7;
 
 
-
 long marcaTiempo, tiempoActual;
 long marcaTiempoFrec, muestreo = 25;
 
 
-float brilloGeneral = .150;
+float brilloGeneral = 1.0;
 //frecuencia general del clock
 float frecSeno = .0001;
 
 //fecuencia
-float frecR = 1.;
-float frecG = 1.;
+float frecR = PI;
+float frecG = PI*.5;
 float frecB = 1.;
 
 float desfaceR = 0.;

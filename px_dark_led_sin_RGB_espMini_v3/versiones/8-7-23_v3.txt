@@ -1,0 +1,34 @@
+
+float f = 0.75;
+
+//frecuencia general del clock
+float frecSeno = .0000015;
+
+float brilloGeneral = 1.1;
+float offGeneral = 0.0;
+float amplitudDesfase =.25;
+
+int espera = 2000;
+int  muestreo = 20;
+int indice = 0;
+bool distancia = true;
+bool distLuz = true;
+bool rampa = false;
+float potencia = 10.; // para la ecuacion de inversa de la distancia
+//fecuencia
+float frecR = PI * .01;
+float frecG = -PI * .01;
+float frecB = .05;
+float desfaceR = 0.50 * TAU;
+float desfaceG = 0.33 * TAU;
+float desfaceB = 0.0 * TAU;
+//en rangos nomalizados es decir pensndolos de 0a 1.
+//amplitud //reduciendo la onda a la mitad de -0.5 a 0.5
+float ampR = .5;
+float ampG = .275;
+float ampB = .25;
+//offset //para compensar o desplazar la onda hacia arriba
+float offR = 0.5 ;
+float offG = 0.25;
+float offB = 0.3;
+float thresh = .0; //en num normalizados
