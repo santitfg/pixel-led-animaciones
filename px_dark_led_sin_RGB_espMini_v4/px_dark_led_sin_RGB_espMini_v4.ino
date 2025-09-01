@@ -8,7 +8,7 @@
 #define SUMA_INI .75
 #define CANT_LEDS 7
 
-int LED_PIN = D6 ;
+int LED_PIN = 13 ;
 
 float brilloGeneral = .65;
 
@@ -30,7 +30,7 @@ int  muestreo = 20;
 
 float frecBrillo=.5;
 float frecR = PI * .01;
-float frecG = -PI * .01;
+float frecG = -PI * .001;
 float frecB = .01;
 //desfaces
 float desfaceR = 0.50 * TAU;
