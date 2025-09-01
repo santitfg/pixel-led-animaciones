@@ -12,7 +12,9 @@ Microcontrolador (Arduino?)
 1.
     vel general
     brillo general
-    //modos de uso ( sin, pinpong?)
+    //modos de uso ( sin, ramp, trig pinpong?)
+        aplicar filtro ( dark) 
+        col inverso
     save config en epprom
     cambiar num de px --> updateLength()
 encoders del 2 al 5 
