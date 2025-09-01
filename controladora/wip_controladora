@@ -1,0 +1,31 @@
+
+https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html
+
+fuente 5V 2A.
+5 encoders + 5 anillos led (controlados en serie)
+
+Microcontrolador (Arduino?)
+15 pines digitales de inputs
+2 pines digitales  de control de luces 
+
+
+1.
+    vel general
+    brillo general
+    //modos de uso ( sin, pinpong?)
+    save config en epprom
+    cambiar num de px --> updateLength()
+encoders del 2 al 5 
+cambio on-off
+< 200 ms cambio de color
+>1 seg - reset canal
+ 2   fase
+ 3   freq
+ 4   amp 
+ 5  off
+
+
+
+(como es el algoritmo de ponderar un valor de 25, 50 y 75 en un knob) Puntos de Atracción (Snap Points)
+https://claude.ai/chat/b3596dce-7d83-4745-be1b-9127e84a7199
+
