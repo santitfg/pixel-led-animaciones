@@ -1,7 +1,8 @@
 
 https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html
 
-fuente 5V 2A.
+fuente 5V 2A. + jack
+
 5 encoders + 5 anillos led (controlados en serie)
 
 Microcontrolador (Arduino?)
@@ -31,3 +32,15 @@ cambio on-off
 (como es el algoritmo de ponderar un valor de 25, 50 y 75 en un knob) Puntos de Atracción (Snap Points)
 https://claude.ai/chat/b3596dce-7d83-4745-be1b-9127e84a7199
 
+
+controles{
+ruedas[5] =Rueda[5]
+modo
+
+}
+Rueda{
+cantPixeles=8
+index
+color
+
+}
